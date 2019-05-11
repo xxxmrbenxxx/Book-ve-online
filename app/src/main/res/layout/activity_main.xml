@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="413dp"
+        android:layout_height="722dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:background="#93D0EC"
+        android:paddingTop="50dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/txtten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/txtten"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+        <EditText
+            android:id="@+id/txtsdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/txtsdt"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Thành viên"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+
+        <TableRow android:paddingTop="20dp">
+
+            <RadioButton
+                android:id="@+id/rbtnvip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vip"
+                tools:layout_editor_absoluteX="81dp"
+                tools:layout_editor_absoluteY="182dp" />
+
+            <RadioButton
+                android:id="@+id/rbtnthuong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thuong"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="182dp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Loại vé"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="244dp" />
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <RadioButton
+                android:id="@+id/rbtngiuong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/giuong"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="291dp" />
+
+            <RadioButton
+                android:id="@+id/rbtnghe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ghe"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="290dp" />
+        </TableRow>
+
+        <CheckBox
+            android:id="@+id/ckbdichvu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="@string/dichvu"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="349dp" />
+
+        <TableRow android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/txtthanh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thanh toán"
+                android:textColor="#000000"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="418dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="142dp"
+                android:layout_height="22dp"
+                android:entries="@array/thanh_array"
+                android:spinnerMode="dropdown"
+                tools:layout_editor_absoluteX="152dp"
+                tools:layout_editor_absoluteY="409dp" />
+        </TableRow>
+
+        <TableRow android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/btncancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancle"
+                android:textColor="#000000"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="499dp" />
+
+            <Button
+                android:id="@+id/btnbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/book"
+                android:textColor="#000000"
+                tools:layout_editor_absoluteX="192dp"
+                tools:layout_editor_absoluteY="498dp" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

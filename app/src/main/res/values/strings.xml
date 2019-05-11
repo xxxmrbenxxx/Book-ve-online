@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Đặt vé tàu Online</string>
+    <string name="txtten">Nhập tên</string>
+    <string name="txtsdt">Nhập SĐT</string>
+    <string name="vip">VIP</string>
+    <string name="thuong">Thường</string>
+    <string name="giuong">Giường nằm</string>
+    <string name="ghe">Ghế ngồi</string>
+    <string name="dichvu">Dịch vụ</string>
+    <string name="thanhtoan">Thanh toán</string>
+    <string name="cancle">Hủy</string>
+    <string name="book">Thanh toán</string>
+
+    <string name="txthanh">Thanh toán</string>
+    <string-array name="thanh_array">
+        <item>USD</item>
+        <item>VNĐ</item>
+    </string-array>
+</resources>
